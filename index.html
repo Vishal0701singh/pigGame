@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+
+        <div class="py active player_1">
+            <button class="btn newgame">🔁New Game</button>
+            <div class="totalScore">
+                <div class="card">
+                    <h1>PLAYER 1</h1>
+                    <p class="tScore0">0</p>
+                </div>
+                <div class="img">
+                    <img id="image" src="face5.png" alt="">
+                </div>
+
+            </div>
+            <div class="box">
+                <div class="scorediv0 player1score">
+                    <p>current</p>
+                    <p class="score0">0</p>
+                </div>
+                <div class="btnclass">
+                    <button class="btn dice">🎲Roll dice</button>
+                    <button class="btn hold"> 📥Hold</button>
+                </div>
+            </div>
+
+        </div>
+        <div class="py zindex player_2">
+            <div class="box2">
+                <div class="totalScore1">
+                    <h1>PLAYER 2</h1>
+                    <p class="tScore1">0</p>
+
+                </div>
+                <div class="scorediv0 player2score">
+                    <p>current</p>
+                    <p class="score1">0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

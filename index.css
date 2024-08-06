@@ -1,0 +1,148 @@
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 15vh;
+
+}
+
+.py {
+    background-color: rgb(168, 68, 68);
+    height: 500px;
+    width: 350px;
+}
+
+#image {
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+}
+
+.active {
+    background-color: rgb(183, 183, 241);
+    color: white;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 30px;
+
+}
+
+.btnclass {
+    width: 150px;
+
+    margin-left: 40px;
+
+}
+
+.tScore1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    /* margin-left: 50px; */
+}
+
+.box2 {
+    align-items: center;
+    margin-top: 62px;
+    width: 200px;
+    height: 438px;
+    /* display: flex; */
+}
+
+.totalScore {
+    width: 309px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 90px;
+    display: flex;
+}
+
+.totalScore1 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 154px;
+    margin-left: 25px;
+}
+
+.player2score {
+    margin-left: 30px;
+    margin-top: 110px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 153px;
+    margin-right: 0px;
+}
+
+.img {
+    width: 100px;
+    margin-left: 56px;
+    margin-top: 20px;
+
+}
+
+.img img {
+    box-shadow: 0px 0px 20px 0px;
+}
+
+.tScore0 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.newgame {
+    margin-top: 20px;
+    margin-left: 265px;
+}
+
+.box {
+    width: 340px;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    margin-left: 82px;
+}
+
+.zindex {
+    z-index: -1;
+}
+
+.scorediv0 {
+    font-size: 17px;
+    height: 100px;
+    width: 150px;
+    background-color: brown;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.player_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.winbox {
+    font-size: 29px;
+}
+
+
+.win {
+    background-color: rgb(18, 225, 59);
+    align-items: center;
+    /* background-image: url(win.jpeg); */
+}
+
+.display {
+    display: none;
+}
